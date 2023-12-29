@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      rel="shortcut icon"
+      href="favicon.ico"
+      type="image/x-icon"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="./css/style.css"
+    />
+
+    <title>KodeResto | Welcome</title>
+  </head>
+  <body
+    data-bs-spy="scroll"
+    data-bs-target="#main_menu"
+  >
+    <!-- Navigation -->
+    <nav
+      id="main_menu"
+      class="navbar navbar-expand-md navbar-light bg-light fixed-top"
+    >
+      <div class="container">
+        <a
+          href="index.html"
+          class="navbar-brand"
+        >
+          <img
+            src="./img/logo1.png"
+            alt="KodeResto Logo"
+            width="150"
+          />
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainMenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          id="mainMenu"
+          class="collapse navbar-collapse"
+        >
+          <ul
+            class="navbar-nav ms-auto"
+            style="font-size: 1rem; letter-spacing: 0.05rem"
+          >
+            <li
+              class="nav-item"
+              style="margin-right: 20px"
+            >
+              <a
+                href="#slider"
+                class="nav-link"
+                >Home</a
+              >
+            </li>
+            <li
+              class="nav-item"
+              style="margin-right: 20px"
+            >
+              <a
+                href="#about"
+                class="nav-link"
+                >About</a
+              >
+            </li>
+            <li
+              class="nav-item"
+              style="margin-right: 20px"
+            >
+              <a
+                href="#work"
+                class="nav-link"
+                >Work</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle"
+                role="button"
+                data-bs-toggle="dropdown"
+                >Cuisines</a
+              >
+              <ul class="dropdown-menu">
+                <li>
+                  <a
+                    href="#"
+                    class="dropdown-item"
+                    >KodeResto Specialty</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="dropdown-item"
+                    >Korean Cuisines</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="dropdown-item"
+                    >Filipino Cuisines</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="dropdown-item"
+                    >American Cuisines</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li
+              class="nav-item"
+              style="margin-right: 20px"
+            >
+              <a
+                href="events.html"
+                class="nav-link"
+                >Events</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="#contact"
+                class="nav-link"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Carousel -->
+    <section
+      id="slider"
+      class="carousel slide carousel-fade"
+      data-bs-ride="carousel"
+      data-bs-touch="true"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="./img/banner_01.jpg"
+            alt="Banner1"
+            class="d-block w-100"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5
+              style="
+                font-family: 'Satisfy', cursive;
+                color: #333;
+                font-size: 3rem;
+              "
+            >
+              KodeResto: Experience a journey of flavors
+            </h5>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img
+            src="./img/banner_02.jpg"
+            alt="Banner2"
+            class="d-block w-100"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5
+              style="
+                font-family: 'Satisfy', cursive;
+                color: #333;
+                font-size: 3rem;
+              "
+            >
+              KodeResto: Experience a journey of flavors
+            </h5>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img
+            src="./img/banner_03.jpg"
+            alt="Banner3"
+            class="d-block w-100"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5
+              style="
+                font-family: 'Satisfy', cursive;
+                color: #333;
+                font-size: 3rem;
+              "
+            >
+              KodeResto: Experience a journey of flavors
+            </h5>
+          </div>
+        </div>
+      </div>
+
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#slider"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#slider"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </section>
+
+    <!-- #############################      About       #######################################-->
+    <section
+      id="about"
+      class="pt-md-3 pt-3"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 d-flex flex-column justify-content-between">
+            <div>
+              <h2 style="font-size: 2.5em; margin-bottom: 0.5em">About Us</h2>
+              <!-- Increased font size and added bottom margin -->
+              <h6 style="font-size: 1.2em; margin-bottom: 0.5em">
+                What We Do?
+              </h6>
+              <!-- Increased font size and added bottom margin -->
+              <p style="font-size: 1em; line-height: 1.6; margin-bottom: 1em">
+                At Kode Resto, we bring a world of flavors to your table. Our
+                journey began with a passion for exceptional culinary
+                experiences, blending traditional and contemporary tastes. We
+                specialize in an array of cuisines, including our unique
+                KodeResto Specialty dishes, authentic Korean flavors, classic
+                Filipino favorites, and familiar American staples. Whether it's
+                a cozy family gathering, a professional corporate event, or a
+                festive celebration, our team is committed to making every meal
+                memorable with our diverse menu options.
+              </p>
+              <p style="font-size: 1em; line-height: 1.6">
+                We pride ourselves on our ability to cater to every palate,
+                ensuring each dish is crafted with the highest quality
+                ingredients and utmost care. Our chefs are connoisseurs of
+                flavor, constantly innovating and experimenting to bring you the
+                best of global cuisine. At Kode Resto, we don't just serve food;
+                we create an experience that celebrates the joy of eating. Join
+                us and embark on a culinary journey that tantalizes your taste
+                buds and leaves you longing for more.
+              </p>
+            </div>
+            <div style="text-align: center; padding-top: 1em">
+              <a
+                href="#"
+                class="btn btn-info"
+                style="font-size: 1.1em; padding: 0.5em 1em"
+                >Learn More</a
+              >
+              <!-- Increased font size and padding for the button -->
+            </div>
+          </div>
+          <div class="col-md-6 align-self-center">
+            <img
+              src="./img/about.jpg"
+              alt="About Image"
+              style="
+                width: 100%;
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+              "
+              onmouseover="this.style.opacity=0.8"
+              onmouseout="this.style.opacity=1"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- #############################      How We Work       #######################################-->
+
+    <section
+      id="work"
+      class="mt-5 pb-5"
+    >
+      <div class="container">
+        <div class="row mb-3">
+          <div class="text-center">
+            <h2>How We Work</h2>
+            <p>
+              Discover the art of our culinary expertise, from the presentation
+              to the taste.
+            </p>
+          </div>
+        </div>
+
+        <!-- Cards Section -->
+        <div class="row">
+          <!-- 1st card: Buffet Table -->
+          <div class="col-md-4 d-flex">
+            <div class="card flex-fill">
+              <img
+                src="./img/work1.jpg"
+                alt="Buffet Table"
+                class="card-img-top"
+              />
+              <div class="card-body d-flex flex-column">
+                <h4 class="card-title">Exquisite Buffet Spread</h4>
+                <p class="card-text flex-grow-1">
+                  Explore our lavish buffet tables, a feast for both the eyes
+                  and palate, featuring a variety of international cuisines.
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-info mt-2 align-self-start"
+                  >Learn More</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- 2nd card: Dining Table -->
+          <div class="col-md-4 d-flex">
+            <div class="card flex-fill">
+              <img
+                src="./img/work2.jpg"
+                alt="Dining Table"
+                class="card-img-top"
+              />
+              <div class="card-body d-flex flex-column">
+                <h4 class="card-title">Elegant Dining Experience</h4>
+                <p class="card-text flex-grow-1">
+                  Indulge in our elegantly set dining tables, perfect for
+                  intimate gatherings and special occasions.
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-info mt-2 align-self-start"
+                  >Learn More</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- 3rd card: Chef Preparing Food -->
+          <div class="col-md-4 d-flex">
+            <div class="card flex-fill">
+              <img
+                src="./img/work3.jpg"
+                alt="Chef Preparing Food"
+                class="card-img-top"
+              />
+              <div class="card-body d-flex flex-column">
+                <h4 class="card-title">Chef's Signature Dishes</h4>
+                <p class="card-text flex-grow-1">
+                  Witness culinary excellence as our chefs craft signature
+                  dishes with precision and flair, ensuring a remarkable dining
+                  experience.
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-info mt-2 align-self-start"
+                  >Learn More</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- #############################      Contact Us       #######################################-->
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="offset-md-2 col-md-7">
+            <div class="card p-4 my-5 text-center">
+              <h2>Contact Us</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
+                error.
+              </p>
+
+              <form
+                action="process.php"
+                class="pt-3 text-start"
+              >
+                <div class="mb-3">
+                  <label
+                    for="name"
+                    class="form-label"
+                    >Your Name</label
+                  >
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="Enter your Name"
+                    class="form-control"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label
+                    for="email"
+                    class="form-label"
+                    >Your Email</label
+                  >
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Enter your Email"
+                    class="form-control"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label
+                    for="phone"
+                    class="form-label"
+                    >Phone</label
+                  >
+                  <input
+                    type="text"
+                    name="phone"
+                    id="phone"
+                    placeholder="Enter your Phone"
+                    class="form-control"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label
+                    for="name"
+                    class="form-label"
+                    >Message</label
+                  >
+                  <textarea
+                    name="message"
+                    id="message"
+                    cols="30"
+                    rows="10"
+                    placeholder="Enter your Message"
+                    class="form-control"
+                  ></textarea>
+                </div>
+                <button class="btn btn-info">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--######################### Footer #########################-->
+    <footer
+      id="footer"
+      class="pt-5 pb-2"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <img
+              src="./img/logo2.png"
+              alt="KodeResto Logo 2"
+              width="180px"
+            />
+          </div>
+          <div class="col-md-3">
+            <h3>Our Products</h3>
+            <ul class="list-unstyled">
+              <li class="mb-2"><a href="#">KodeResto Specialty</a></li>
+              <li class="mb-2"><a href="#">Filipino Cuisine</a></li>
+              <li class="mb-2"><a href="#">American Cuisine</a></li>
+              <li class="mb-2"><a href="#">Chinese Cuisine</a></li>
+              <li class="mb-2"><a href="#">Japanese Cuisine</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h3>Quick Links</h3>
+            <ul class="list-unstyled">
+              <li class="mb-2"><a href="#">Some Links</a></li>
+              <li class="mb-2"><a href="#">Some Links</a></li>
+              <li class="mb-2"><a href="#">Some Links</a></li>
+              <li class="mb-2"><a href="#">Some Links</a></li>
+              <li class="mb-2"><a href="#">Some Links</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h3>Search Here</h3>
+            <form action="process.php">
+              <div class="input-group">
+                <input
+                  type="text"
+                  name="search"
+                  id="search"
+                  class="form-control"
+                  placeholder="Search Here"
+                />
+                <button class="btn btn-info">Search</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <p>Copyright 2024 | BootStrapDemo | Kodego Bootcamp</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
